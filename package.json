@@ -17,6 +17,8 @@
     "@tsconfig/svelte": "^5.0.2",
     "@types/node": "^20.11.24",
     "esbuild": "^0.19.12",
+    "@rollup/rollup-linux-x64-gnu": "4.6.1",
+    "@rollup/rollup-linux-x64-musl": "4.6.1",
     "svelte-check": "^3.6.4",
     "typescript": "^5.3.3",
     "vite": "^5.1.4"
