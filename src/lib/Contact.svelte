@@ -8,7 +8,7 @@
     message: ''
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: SubmitEvent) => {
     e.preventDefault();
     // Handle form submission here
     console.log('Form submitted:', formData);

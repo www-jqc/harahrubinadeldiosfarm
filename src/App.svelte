@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Navbar from './lib/Navbar.svelte';
   import Hero from './lib/Hero.svelte';
   import Services from './lib/Services.svelte';
@@ -11,13 +11,13 @@
 
   let isDarkMode = false;
 
-  function handleDarkModeChange(event) {
+  function handleDarkModeChange(event: CustomEvent<boolean>) {
     isDarkMode = event.detail;
   }
 </script>
 
-<Navbar on:darkModeChange={handleDarkModeChange} />
 <main class:dark={isDarkMode}>
+  <Navbar on:darkModeChange={handleDarkModeChange} />
   <Hero {isDarkMode} />
   <Services {isDarkMode} />
   <Menu {isDarkMode} />
@@ -25,8 +25,8 @@
   <About {isDarkMode} />
   <Blog {isDarkMode} />
   <Contact {isDarkMode} />
+  <Footer {isDarkMode} />
 </main>
-<Footer {isDarkMode} />
 
 <style>
   :global(:root) {

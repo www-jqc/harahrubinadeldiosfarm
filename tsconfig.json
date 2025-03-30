@@ -8,8 +8,10 @@
     "allowJs": true,
     "checkJs": true,
     "isolatedModules": true,
-    "types": ["vite/client", "svelte"]
+    "strict": true,
+    "noEmit": true,
+    "types": ["vite/client"]
   },
-  "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte", "src/**/*.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 } 

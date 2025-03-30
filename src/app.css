@@ -1,12 +1,19 @@
 :root {
+  /* Light mode variables */
+  --background-light: #ffffff;
+  --background-light-secondary: #f8f9fa;
+  --text-color: #2c3e50;
+  --text-light: #666666;
+  --text-light-secondary: #888888;
   --primary-color: #27ae60;
   --primary-dark: #219a52;
-  --text-color: #2c3e50;
-  --text-light: #666;
-  --background-light: #f9f9f9;
-  --white: #ffffff;
+  --primary-light: #34c271;
+
+  /* Dark mode variables */
   --background-dark: #1a1a1a;
+  --background-dark-secondary: #2d2d2d;
   --text-dark: #ffffff;
+  --text-dark-secondary: #cccccc;
 }
 
 * {
@@ -38,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: var(--primary-color);
+  color: inherit;
   text-decoration: none;
   transition: color 0.3s ease;
 }
