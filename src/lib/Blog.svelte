@@ -63,7 +63,7 @@
             <span class="date">{post.date}</span>
             <h3>{post.title}</h3>
             <p>{post.excerpt}</p>
-            <a href="/blog" class="read-more">Read More →</a>
+         
           </div>
         </article>
       {/each}
@@ -94,14 +94,6 @@
 
   .blog.dark p {
     color: var(--text-light-secondary);
-  }
-
-  .blog.dark .read-more {
-    color: var(--primary-light);
-  }
-
-  .blog.dark .read-more:hover {
-    color: var(--primary-color);
   }
 
   .container {
@@ -189,16 +181,7 @@
     line-height: 1.6;
   }
 
-  .read-more {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-  }
 
-  .read-more:hover {
-    color: var(--primary-dark);
-  }
 
   @media (max-width: 768px) {
     .blog {
