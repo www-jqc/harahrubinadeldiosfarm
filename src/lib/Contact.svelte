@@ -99,7 +99,7 @@
 <style>
   .contact {
     padding: 5rem 2rem;
-    background-color: var(--background-light);
+    background-color: #d5d4b656;
     transition: all 0.3s ease;
   }
 

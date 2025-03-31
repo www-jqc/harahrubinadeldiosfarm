@@ -26,8 +26,8 @@
 <style>
   .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url('/farm-background.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(163, 40, 200, 0.5), rgba(66, 64, 64, 0.5)),
+                url('/dist/gallery/bg.png') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@
 
   .hero.dark {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url('/farm-background.jpg') center/cover no-repeat;
+                url('/dist/gallery/bg.png') center/cover no-repeat;
   }
 
   .hero-content {

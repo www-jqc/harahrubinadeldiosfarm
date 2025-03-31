@@ -90,7 +90,7 @@
 <style>
   .gallery {
     padding: 5rem 2rem;
-    background-color: var(--background-light);
+    background-color: #cfae6b28;
     transition: all 0.3s ease;
   }
 

@@ -31,7 +31,7 @@
 <style>
   :global(:root) {
     /* Light mode variables */
-    --background-light: #ffffff;
+    --background-light: #eae4e4;
     --background-light-secondary: #f8f9fa;
     --text-color: #2c3e50;
     --text-light: #666666;

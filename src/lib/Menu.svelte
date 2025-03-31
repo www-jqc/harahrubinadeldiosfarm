@@ -66,7 +66,7 @@
 <style>
   .menu {
     padding: 5rem 2rem;
-    background-color: var(--background-light);
+    background-color: #92339c28;
     transition: all 0.3s ease;
   }
 

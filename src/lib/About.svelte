@@ -40,7 +40,7 @@
 <style>
   .about {
     padding: 5rem 2rem;
-    background-color: var(--background-light);
+    background-color: #fbf2f656;
     transition: all 0.3s ease;
   }
 

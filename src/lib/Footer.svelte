@@ -46,7 +46,7 @@
 
 <style>
   .footer {
-    background-color: #f8f9fa;
+    background-color: #c0d9f186;
     padding: 4rem 2rem 1rem;
     transition: background-color 0.3s ease;
   }
