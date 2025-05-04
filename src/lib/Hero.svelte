@@ -14,7 +14,7 @@
 
 <section class="hero" id="home" class:dark={isDarkMode}>
   <div class="hero-content" class:fade-in={isVisible}>
-    <h1>Welcome to Harah Rubina Del Dios Farmsss</h1>
+    <h1>Welcome to Harah Rubina Del Dios Farm</h1>
     <p>Experience the perfect blend of nature, entertainment, and delicious food</p>
     <div class="cta-buttons">
       <a href="#services" class="cta-primary">Explore Services</a>
