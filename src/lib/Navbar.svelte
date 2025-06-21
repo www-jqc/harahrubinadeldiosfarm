@@ -32,7 +32,10 @@
 
 <nav class="navbar" class:dark={isDarkMode}>
   <div class="logo">
-    <a href="/" on:click={closeMenu}>Harah Rubina Del Dios Farm</a>
+    <a href="/" on:click={closeMenu}>
+      <img src="/logo.png" alt="Harah Rubina Del Dios Farm Logo" class="logo-image" />
+      <span class="logo-text">Harah Rubina Del Dios Farm</span>
+    </a>
   </div>
   
   <button class="menu-toggle" on:click={toggleMenu} aria-label="Toggle menu">
@@ -89,10 +92,22 @@
   }
 
   .logo a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+
+  .logo-image {
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+
+  .logo a:hover .logo-image {
+    transform: scale(1.1) rotate(-5deg);
   }
 
   .nav-links {
@@ -178,6 +193,10 @@
   }
 
   @media (max-width: 768px) {
+    .logo-text {
+      display: none;
+    }
+
     .menu-toggle {
       display: block;
     }
